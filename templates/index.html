@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Purchase Prediction</title>
+    <link rel="stylesheet" href="static/index_style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Customer Purchase </h1>
+        <h1>Prediction</h1>
+        <form action="/predict" method="post">
+
+
+            <label for="age">Age: </label><br>
+            <input type="text" id="age" name="age"><br><br>
+
+            <label for="salary">Salary: </label><br>
+            <input type="text" id="salary" name="salary"><br><br>
+
+            <label for="price">Price of Product: </label><br>
+            <input type="text" id="price" name="price"><br><br>
+
+            <label for="product_category">Product Category: </label><br>
+            <select id="product_category" name="product_category">
+                <option value="Stationery">Stationery</option>
+                <option value="Shoes">Shoes</option>
+                <option value="Computer Accessories">Computer Accessories</option>
+                <option value="Clothing">Clothing</option>
+                <option value="Sports">Sports</option>
+                <option value="Mobile Accessories">Mobile Accessories</option>
+            </select><br><br>
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+    background-image: url("../static/indexbg.png");
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin-left: 12vw;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+form {
+
+    color: #185252;
+}
+
+input[type="text"],
+select {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #ccc;
+    padding: 8px;
+    width: 200px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #333333;
+    border-radius:15px;
+    color: #fafafa;
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+       font-weight: bold;
+
+}
+h1{
+    color:#9f4545;
+}

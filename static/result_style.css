@@ -1,0 +1,44 @@
+body {
+   background-image: url("../static/bgresult.png");
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+h1{
+    color:#9f4545;
+    sfont-weight: bold;
+}
+p{
+    color: #141510;
+    font-size: large;
+    font-weight: bold;
+}
+button {
+    background-color: #333333;
+    border-radius:15px;
+    color: #fafafa;
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #555;
+       font-weight: bold;
+
+}
